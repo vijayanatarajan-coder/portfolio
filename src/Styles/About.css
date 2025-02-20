@@ -1,0 +1,25 @@
+.grid-container {
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+}
+
+.content {
+  position: relative;
+}
+.content p {
+  margin: 4px;
+  padding: 5px;
+  font-size: 1rem;
+}
+.profile-image {
+  width: 150px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.clear-text {
+  display: block;
+  clear: left;
+}

@@ -1,0 +1,45 @@
+.vn {
+  font-size: 0.8rem;
+  font-weight: 800;
+  place-content: center;
+  aspect-ratio: 1;
+  display: grid;
+  height: 50px;
+}
+body.light .vn {
+  background-color: #0c0c0c;
+  color: #f7f7f7;
+}
+body.dark .vn {
+  background-color: #f7f7f7;
+  color: #0c0c0c;
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+body.dark .awt {
+  padding-left: 15px;
+  color: #f7f7f7;
+}
+body.light .awt {
+  padding-left: 15px;
+  color: #000;
+}
+.mode {
+  margin-left: auto;
+}
+.theme-toggle {
+  position: relative;
+  left: -4px;
+  margin-right: 0.2em;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+.toggle-icon {
+  transition: color 0.3s ease;
+}
+body.dark .toggle-icon {
+  color: #f7f7f7;
+}
+
+body.light .toggle-icon {
+  color: #000;
+}

@@ -1,0 +1,36 @@
+.page-heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.page-heading-title {
+  padding: 2rem;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.page-heading-divider {
+  border-top: 1px solid;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+@media (max-width: 480px) {
+  .page-heading-title {
+    font-size: 2rem;
+  }
+  svg {
+    font-size: 1rem;
+  }
+  .footer-right {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer-icon {
+    padding-left: 0px;
+  }
+}

@@ -1,0 +1,42 @@
+.footer-icon {
+  position: relative;
+  top: 5px;
+  width: 1.4em;
+  height: 1.4em;
+  padding-left: 10px;
+}
+.footerr {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.footer-left {
+  font-weight: 500;
+  font-size: 0.8rem;
+  padding: 20px;
+}
+.footer-right {
+  padding: 20px;
+}
+footer.dark .footer-right a {
+  color: #fff;
+}
+footer.light .footer-right a {
+  color: #000;
+}
+.footerr.dark {
+  background-color: #000;
+  color: #f7f7f7;
+}
+.footerr.light {
+  background-color: #000;
+  color: #f7f7f7;
+}
+footer.dark {
+  border-top: 1px solid #f7f7f7;
+}
+footer.light {
+  border-top: 1px solid #000;
+}

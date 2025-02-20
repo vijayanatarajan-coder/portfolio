@@ -1,0 +1,51 @@
+body.dark .resume-section a {
+  color: #fff;
+}
+body.light .resume-section a {
+  color: #000;
+}
+.card {
+  display: grid;
+  grid-template-columns: auto;
+  justify-items: center;
+}
+.card img {
+  width: 320px;
+  height: 200px;
+}
+body.dark .Design-section a {
+  color: #fff;
+}
+body.light .Design-section a {
+  color: #000;
+}
+.thoughts {
+  margin: 20px;
+  padding: 10px;
+}
+
+/* When the screen is 768px or larger (Tablet & Desktop) */
+@media (min-width: 768px) {
+  .card {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+  }
+  .card img {
+    width: 384px;
+    height: 300px;
+  }
+}
+
+/* When the screen is 1024px or larger (Laptops & Desktops) */
+@media (min-width: 1024px) {
+  .card {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+  }
+  .card img {
+    width: 699px;
+    height: 500px;
+  }
+}

@@ -1,0 +1,51 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+}
+body.dark .project {
+  border: 1px solid #fff;
+}
+body.light .project {
+  border: 1px solid #0c0c0c;
+}
+.project p {
+  display: flex;
+  justify-content: center;
+}
+body.light .project p {
+  color: #000;
+}
+body.dark .project p {
+  color: #fff;
+}
+.works {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+}
+.work-image {
+  max-width: 100%;
+  width: 300px;
+  height: 350px;
+}
+.project a {
+  color: #fff;
+  text-decoration: none;
+}
+.project img {
+  border-radius: 10px;
+}
+@media (max-width: 480px) {
+  .works {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+  }
+}
