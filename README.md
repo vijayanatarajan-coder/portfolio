@@ -5,3 +5,5 @@ Project Description - In this project it has a about, work, thoughts and the det
 My application does to show the portfolio in a website and in mobile it is responsive.
 
 Technologies - react js and figma and vs code.
+
+Link to the Portfolio ---- https://vijiportfolio.netlify.app/
