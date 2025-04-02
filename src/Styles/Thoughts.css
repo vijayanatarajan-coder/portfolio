@@ -1,8 +1,19 @@
 body.dark .resume-section a {
-  color: #fff;
+  color: var(--primary-color);
 }
 body.light .resume-section a {
-  color: #000;
+  color: var(--secondary-color);
+}
+.thoughts p {
+  font-size: var(--primary-font-size);
+}
+.thoughts h2 {
+  font-size: var(--tertiary-font-size);
+  font-weight: var(--primary-font-weight);
+}
+.thoughts h3 {
+  font-size: var(--secondary-font-size);
+  font-weight: var(--primary-font-weight);
 }
 .card {
   display: grid;
@@ -14,14 +25,14 @@ body.light .resume-section a {
   height: 200px;
 }
 body.dark .Design-section a {
-  color: #fff;
+  color: var(--primary-color);
 }
 body.light .Design-section a {
-  color: #000;
+  color: var(--secondary-color);
 }
 .thoughts {
-  margin: 20px;
-  padding: 10px;
+  margin: var(--spacing-3);
+  padding: var(--spacing-2);
 }
 
 /* When the screen is 768px or larger (Tablet & Desktop) */
@@ -30,6 +41,17 @@ body.light .Design-section a {
     display: grid;
     grid-template-columns: auto auto;
     justify-items: center;
+  }
+  .thoughts p {
+    font-size: var(--secondary-font-size);
+  }
+  .thoughts h2 {
+    font-size: 2rem;
+    font-weight: var(--primary-font-weight);
+  }
+  .thoughts h3 {
+    font-size: 1.5rem;
+    font-weight: var(--primary-font-weight);
   }
   .card img {
     width: 384px;
@@ -43,6 +65,17 @@ body.light .Design-section a {
     display: grid;
     grid-template-columns: auto auto;
     justify-items: center;
+  }
+  .thoughts p {
+    font-size: var(-tertiary-font-size);
+  }
+  .thoughts h2 {
+    font-size: 2rem;
+    font-weight: var(--primary-font-weight);
+  }
+  .thoughts h3 {
+    font-size: 1.5rem;
+    font-weight: var(--primary-font-weight);
   }
   .card img {
     width: 699px;

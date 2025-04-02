@@ -1,32 +1,32 @@
 nav ul {
   display: flex;
-  list-style: none;
-  align-items: center;
+  list-style: var(--text-decoration-1);
+  align-items: var(--justify-content);
   padding: 0px;
   margin: 0px;
 }
 nav li {
   display: flex;
   text-transform: uppercase;
-  font-weight: 500;
-  font-size: 0.8rem;
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
 }
 li a {
-  text-decoration: none;
-  color: #0c0c0c;
+  text-decoration: var(--text-decoration-1);
+  color: var(--secondary-color);
 }
 
 header.light {
-  border-bottom: 1px solid #0c0c0c;
+  border-bottom: 1px solid var(--secondary-color);
 }
 header.dark {
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 1px solid var(--primary-color);
 }
 nav ul.dark {
-  background-color: #000;
-  color: #fff;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 nav ul.light {
-  background-color: #f1f1f1;
-  color: #000;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }

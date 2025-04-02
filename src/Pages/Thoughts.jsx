@@ -43,8 +43,7 @@ const Thoughts = () => {
             <p>
               Minimalist UI : Used a clean design to ensure easy navigation.
               <br />
-              React : Built with React and Tailwind CSS for speed and
-              responsiveness.
+              React : Built with React and CSS for speed and responsiveness.
               <br />
               Dark/Light Mode : Implemented a theme switcher for better user
               experience.

@@ -4,7 +4,6 @@ import { TbMilkshake } from "react-icons/tb";
 import "../Styles/Footer.css";
 import { ThemeContext } from "./ ThemeContext";
 import { FaLinkedin } from "react-icons/fa6";
-//import EmailIcon from "./Email";
 
 const Footer = () => {
   const { theme } = useContext(ThemeContext);
@@ -16,13 +15,12 @@ const Footer = () => {
           <TbMilkshake className="footer-icon" />
         </div>
         <div className="footer-right">
-          {/* <EmailIcon /> */}
           <a
             href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin />
+            <FaLinkedin className="footer-icon" />
           </a>
 
           <a

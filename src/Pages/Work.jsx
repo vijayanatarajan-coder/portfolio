@@ -3,6 +3,8 @@ import "../Styles/Works.css";
 import moodz from "../Images/Discover.jpg";
 import ecommerce from "../Images/Shop.jpg";
 import groupproject from "../Images/gp.svg";
+import recipeExplorer from "../Images/Recipe.jpeg";
+
 const Work = () => {
   return (
     <main>
@@ -41,6 +43,21 @@ const Work = () => {
           >
             <img src={ecommerce} alt="e-commerce" className="work-image" />
             <p>E-Commerce</p>
+          </a>
+        </div>
+
+        <div className="project">
+          <a
+            href="https://meal-explorer.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={recipeExplorer}
+              alt="ecipe-Explorer"
+              className="work-image"
+            />
+            <p>Recipe-Explorer</p>
           </a>
         </div>
       </div>

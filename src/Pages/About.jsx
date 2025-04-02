@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/About.css";
 import ProfilePic from "../Images/profile.jpg";
-import { TbMilkshake } from "react-icons/tb";
+
 const About = () => {
   return (
     <main>
@@ -15,7 +15,8 @@ const About = () => {
           </p>
           <p>
             With that in mind, I've created a unique collection of projects
-            focused on Moodz, e-commerce, admin-dashboard and Group-Project.
+            focused on Moodz, e-commerce, admin-dashboard and Group-Project and
+            Recipe-Explorer.
           </p>
           <p>
             <span className="clear-text"></span>
@@ -37,8 +38,7 @@ const About = () => {
           </p>
           <p>
             If you’d like to support me, sharing my work with your buds is the
-            best way. Means a lot, for real. You can also buy me a MilkShake
-            <TbMilkshake className="footer-icon" />.
+            best way. Means a lot, for real.
           </p>
         </div>
       </div>

@@ -1,14 +1,16 @@
 .page-heading-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 1rem;
+  align-items: var(--justify-content);
+  padding: var(--secondary-font-size);
 }
 
 .page-heading-title {
   padding: 2rem;
-  font-size: 5rem;
-  text-align: center;
+  font-size: 6rem;
+  line-height: 1.5;
+  font-weight: 700;
+  text-align: var(--justify-content);
 }
 
 .page-heading-divider {
@@ -17,17 +19,24 @@
   margin: 0 auto;
   margin-bottom: 1.5rem;
 }
+
+@media (max-width: 768px) {
+  .page-heading-title {
+    font-size: 3.6rem;
+  }
+}
+
 @media (max-width: 480px) {
   .page-heading-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   svg {
-    font-size: 1rem;
+    font-size: var(--secondary-font-size);
   }
   .footer-right {
     display: flex;
-    padding: 20px;
-    align-items: center;
+    padding: var(--spacing-3);
+    align-items: var(--justify-content);
     flex-direction: column;
   }
   .footer-icon {

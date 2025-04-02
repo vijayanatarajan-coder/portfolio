@@ -1,42 +1,42 @@
 .footer-icon {
   position: relative;
-  top: 5px;
+  top: var(--spacing-1);
   width: 1.4em;
   height: 1.4em;
-  padding-left: 10px;
+  padding-left: var(--spacing-2);
 }
 .footerr {
   text-transform: uppercase;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: var(--justify-content);
   height: 50px;
 }
 .footer-left {
-  font-weight: 500;
-  font-size: 0.8rem;
-  padding: 20px;
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  padding: var(--spacing-3);
 }
 .footer-right {
-  padding: 20px;
+  padding: var(--spacing-3);
 }
 footer.dark .footer-right a {
-  color: #fff;
+  color: var(--primary-color);
 }
 footer.light .footer-right a {
-  color: #000;
+  color: var(--secondary-color);
 }
 .footerr.dark {
-  background-color: #000;
-  color: #f7f7f7;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 .footerr.light {
-  background-color: #000;
-  color: #f7f7f7;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 footer.dark {
-  border-top: 1px solid #f7f7f7;
+  border-top: 1px solid var(--primary-color);
 }
 footer.light {
-  border-top: 1px solid #000;
+  border-top: 1px solid var(--secondary-color);
 }
