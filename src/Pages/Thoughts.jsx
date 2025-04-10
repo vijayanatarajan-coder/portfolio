@@ -1,5 +1,5 @@
 import React from "react";
-import resumeImage from "../Images/vijayaresume.pdf";
+import resumeImage from "../Images/vijayaResume.pdf";
 import { Link } from "react-router-dom";
 import "../Styles/Thoughts.css";
 const Thoughts = () => {
