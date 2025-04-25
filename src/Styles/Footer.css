@@ -8,17 +8,17 @@
 .footerr {
   text-transform: uppercase;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: var(--justify-content);
   height: 50px;
 }
-.footer-left {
+/* .footer-left {
   font-weight: var(--primary-font-weight);
   font-size: var(--primary-font-size);
   padding: var(--spacing-3);
-}
+} */
 .footer-right {
-  padding: var(--spacing-3);
+  padding-right: var(--spacing-2);
 }
 footer.dark .footer-right a {
   color: var(--primary-color);

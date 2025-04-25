@@ -46,10 +46,6 @@ body.dark {
   color: var(--primary-color);
 }
 
-main {
-  min-height: 80vh;
-}
-
 svg {
   font-size: var(--tertiary-font-size);
 }

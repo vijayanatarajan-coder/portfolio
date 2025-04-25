@@ -3,13 +3,13 @@ import "../Styles/PageHeader.css";
 
 const PageHeader = ({ title, firstPart }) => {
   return (
-    <div className="page-heading-container">
+    <section className="page-heading-container">
       <h1 className="page-heading-title">
         {title}
         <br />
-        {firstPart}
+        <span>{firstPart}</span>
       </h1>
-    </div>
+    </section>
   );
 };
 

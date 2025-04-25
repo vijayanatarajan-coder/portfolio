@@ -6,11 +6,11 @@ import { ThemeContext } from "./ ThemeContext";
 const Header = () => {
   const { theme } = useContext(ThemeContext);
   return (
-    <div>
-      <header className={`header ${theme}`}>
+    <header className={`header ${theme}`} role="banner">
+      <nav aria-label="Main navigation">
         <Nav />
-      </header>
-    </div>
+      </nav>
+    </header>
   );
 };
 

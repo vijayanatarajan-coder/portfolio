@@ -1,6 +1,6 @@
 import React from "react";
 import resumeImage from "../Images/vijayaResume.pdf";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import "../Styles/Thoughts.css";
 const Thoughts = () => {
   return (
@@ -52,7 +52,7 @@ const Thoughts = () => {
             </p>
           </div>
         </section>
-        <section className="Design-section">
+        {/* <section className="Design-section">
           <h2>Design Thinking</h2>
           <Link to="/PatientsDesign" className="patentsdesign">
             Click here to see the design.
@@ -69,7 +69,7 @@ const Thoughts = () => {
               Soft Colors & Calming UI : Enhances user experience.
             </p>
           </div>
-        </section>
+        </section> */}
       </section>
     </main>
   );

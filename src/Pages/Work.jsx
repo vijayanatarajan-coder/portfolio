@@ -1,66 +1,67 @@
 import React from "react";
 import "../Styles/Works.css";
-import moodz from "../Images/Discover.jpg";
-import ecommerce from "../Images/Shop.jpg";
-import groupproject from "../Images/gp.svg";
-import recipeExplorer from "../Images/Recipe.jpeg";
+import StarBackground from "../Components/StarBackground";
 
 const Work = () => {
   return (
-    <main>
-      <div className="works">
-        <div className="project">
-          <a
-            href="https://moodzz.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={moodz} alt="moodz" className="work-image" />
-            <p>Moodz</p>
-          </a>
-        </div>
+    <main className="work-main">
+      <section className="work-wrapper">
+        <StarBackground />
 
-        <div className="project">
-          <a
-            href="https://vijayanatarajan-coder.github.io/Group-Project/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={groupproject}
-              alt="group-project"
-              className="work-image"
-            />
-            <p>Group-Project</p>
-          </a>
-        </div>
-
-        <div className="project">
-          <a
-            href="https://kevingarciamartin.github.io/e-commerce/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={ecommerce} alt="e-commerce" className="work-image" />
-            <p>E-Commerce</p>
-          </a>
-        </div>
-
-        <div className="project">
-          <a
-            href="https://meal-explorer.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={recipeExplorer}
-              alt="ecipe-Explorer"
-              className="work-image"
-            />
-            <p>Recipe-Explorer</p>
-          </a>
-        </div>
-      </div>
+        <section className="works">
+          <h2 className="hide-heading">Projects</h2>
+          <article className="project">
+            <a
+              href="https://moodzz.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Moodz Project - View live"
+            >
+              <p>Moodz</p>
+            </a>
+          </article>
+          <article className="project">
+            <a
+              href="https://vijayanatarajan-coder.github.io/Group-Project/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Group-Project - View live"
+            >
+              <p>Group-Project</p>
+            </a>
+          </article>
+          <article className="project">
+            <a
+              href="https://kevingarciamartin.github.io/e-commerce/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="E-Commerce Project - View live"
+            >
+              <p>E-Commerce</p>
+            </a>
+          </article>
+          <article className="project">
+            <a
+              href="https://github.com/vijayanatarajan-coder/fakeKart"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="FakeKart - View on GitHub"
+            >
+              <p>FakeKart</p>
+            </a>
+          </article>
+          <article className="project">
+            <a
+              href="https://meal-explorer.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Recipe-Explorer Project - View live"
+            >
+              <p>Recipe-Explorer</p>
+            </a>
+          </article>
+        </section>
+      </section>
     </main>
   );
 };

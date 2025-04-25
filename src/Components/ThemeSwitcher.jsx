@@ -8,13 +8,13 @@ const ThemeSwitcher = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
 
   return (
-    <div className="theme-toggle" onClick={toggleTheme}>
+    <section className="theme-toggle" onClick={toggleTheme}>
       {theme === "light" ? (
         <CiLight className="toggle-icon" />
       ) : (
         <MdNightlightRound className="toggle-icon" />
       )}
-    </div>
+    </section>
   );
 };
 
