@@ -26,9 +26,6 @@ const Thoughts = () => {
               Minimalist Design : Used clean fonts and spacing for readability.
               <br />
               Impact-Oriented : Focused on measurable achievements.
-              <br />
-              ATS-Friendly : Ensured it works well with job application
-              software.
             </p>
           </div>
         </section>

@@ -60,6 +60,26 @@ const Work = () => {
               <p>Recipe-Explorer</p>
             </a>
           </article>
+          <article className="project">
+            <a
+              href="https://github.com/priyanka8637kumari/litorina"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Litorina Folk High School - View live"
+            >
+              <p>Litorina Folk High School</p>
+            </a>
+          </article>
+          <article className="project">
+            <a
+              href="https://xrchildhoodpaintingroom.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Childhood Memory VR Scene - View live"
+            >
+              <p>Childhood Memory VR Scene</p>
+            </a>
+          </article>
         </section>
       </section>
     </main>
